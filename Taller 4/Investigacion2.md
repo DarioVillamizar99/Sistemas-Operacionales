@@ -4,9 +4,20 @@
 
 # 1. Las funciones y servicios proporcionados por el OS pueden dividirse en dos categorías, descríbalas.
 
+RTA: 1) Funciones del sistema operativo: son funciones esecnciales del sistema operativo que son necesarias para su funcionamiento. Como lo son gestion de memoria, gestion de procesos, entre otros.
+2) Servicios del sistema operativo: estos son los servicios que el sistema operativo proporciona a las aplicaciones y usuarios que se ejecutan en el. Como lo son gestion de redes, impresiones, genstion de ventanas, entre otros.
+
 # 2. Enumere cinco servicios proporcionados por el OS diseñados para facilitar la comodidad delusuario.
 
+* Interfaz Grafica
+* Gestion de Energia
+* Asistente virtual
+* Integracion de Aplicaciones
+* Accesibilidad
+
+
 # 3. Describa como se puede generar un informe estadístico de la cantidad de tiempo y recursos consumidos por un programa.
+
 
 # 4. Enumere y describa cinco actividades de un OS enfocadas a la administración de archivos.
 
