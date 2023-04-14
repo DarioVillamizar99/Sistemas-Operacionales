@@ -18,15 +18,54 @@ RTA: 1) Funciones del sistema operativo: son funciones esecnciales del sistema o
 
 # 3. Describa como se puede generar un informe estadístico de la cantidad de tiempo y recursos consumidos por un programa.
 
+1) Se debe utilizar un software de seguimiento de rendimiento que nos permita monitorear en tiempo real y registrar los datos de uso de los recursos que se tienen.
+2) Luego se establecen los parametros de registro, osea hay que empezar por configurar la herramienta que se escogio para que nos registre solo los paremetros que sean relevantes para nostros. Como por ejemplo el timepo que gasta un programa en ejecutarse o cuanta CPU consume.
+3) Abra que ejecutar el programa para poder monitorearlo.
+4) Mientras el programa se ejecuta debemos empezar a regustrar los datos que queremos guardar, de esto se encarga la herramienta que hayamos escogido, hay que tener en cuenta que se debe dejar un tiempo razonable para que el software pueda tener buenos registros.
+5) Despues de haber obtenido los datos habra que analizarlos, se puede utlizar herramientas de analisis estadistico para esto, estos datos puede deteminar la cantdiad promedio de recursos que se utilizan en la ejecucion de un programa.
+6) Finalmente se le da una interpretacion a los resultados para asi generar el reporte estadicstico. De esta forma se determina si el programa esta consumiendo muchos recursos o no.
+
+
 
 # 4. Enumere y describa cinco actividades de un OS enfocadas a la administración de archivos.
 
+1) Cracion de archivos: el OS permite a los usuarios crear nuevos archivos en su sistema, ya sea mediante una interfaz o por medio de un lenguaje de programacion.
+2) Organizacion de archivos: el OS organiza los archovos en una jerarquia de carpetas asi se le hace mas facil a usuario navegar.
+3) Acceso a los archivos: el OS permite a los usuarios acceder a los archivos almacenados en el sistema, aveces estos archivos pueden tener restricciones de usuario.
+4) Copia de archivos: el OS permite a los usuarios copiar archivos de una ubiacion a otra.
+5) Eliminar archivos: el OS permite a los usuarios  eliminar archibos que ya no sean necesarios, esto tambien ayuda al OS ya que libera espacion en memora, tambien proporciona una papeleta de reciclaje donde se pueden recuperar archivos en caso de eliminarlos por accidente.
+
 # 5. Compare las ventajas y desventajas de usar la misma interfaz de llamadas al sistema para la manipulación de archivos como de dispositivos.
+
+Ventajas.
+1) Simplificación del sistema: al usar la misma interfaz de llamadas al sistema para archivos y dispositivos, se simplifica el sistema operativo y se reduce la complejidad. Esto puede hacer que el OS sea más fácil de entender y de programar.
+
+2) Flexibilidad: al usar la misma interfaz de llamadas al sistema, los programadores pueden usar las mismas técnicas y herramientas para manipular archivos y dispositivos. Esto proporciona una mayor flexibilidad y puede permitir una programación más eficiente.
+
+3) Uniformidad: la misma interfaz de llamadas al sistema para archivos y dispositivos puede proporcionar una mayor uniformidad en el uso del OS. Esto puede hacer que sea más fácil para los usuarios entender y usar el OS.
+
+Desventajas:
+
+1) Rendimiento: usar la misma interfaz de llamadas al sistema para archivos y dispositivos puede tener un impacto en el rendimiento. Algunas operaciones de dispositivos pueden requerir una latencia más baja que las operaciones de archivo, y al usar la misma interfaz de llamadas al sistema, el rendimiento de ambos puede ser afectado.
+
+2)Complejidad: si bien la simplificación del sistema es una ventaja, la complejidad de la manipulación de archivos y dispositivos puede aumentar si se usan las mismas llamadas al sistema para ambos. Por ejemplo, las operaciones de archivo y dispositivo pueden requerir diferentes parámetros y opciones, lo que puede aumentar la complejidad del código.
+
+3) Mantenimiento: usar la misma interfaz de llamadas al sistema para archivos y dispositivos puede dificultar el mantenimiento y la solución de problemas. Si una llamada al sistema falla, puede ser difícil determinar si el problema está relacionado con un archivo o un dispositivo.
 
 # 6. Conteste las siguientes preguntas:
 # ◦ Cual es el propósito del interprete de comandos?
+
+El proposito del interprete de comandos es proporcionar una interfaz entre el usuario y el OS, el interprete de comandos es un programa que lee los comandos escritospor el usuario y los traduce en instrucciones que el sistema operativo puede entender y ejecutar. Este interprete permite al usuario realizar varias tareas, como la gestion de archivos, configuracion del sistema, entre otros.
+
 # ◦ Por qué esta separado del kernel?
+
+El interprete esta separado del kernel por varias razones, como son seguridad, modulariada, flexibilidad y depuracion.
+El kernel es el núcleo del sistema operativo y controla todos los recursos del sistema. Si se permitiera que los usuarios accedan directamente al kernel, podrían dañar el sistema o acceder a recursos que no deberían tener acceso. Al separar el intérprete de comandos del kernel, se limita el acceso del usuario y se mejora la seguridad del sistema, la separación del intérprete de comandos del kernel permite que ambos componentes se desarrollen y actualicen de forma independiente. Esto facilita la actualización y el mantenimiento del sistema operativo en su conjunto.
+Al separar el intérprete de comandos del kernel, se permite la posibilidad de utilizar diferentes intérpretes de comandos con el mismo kernel. Esto proporciona más opciones y flexibilidad para los usuarios, si el intérprete de comandos se ejecuta en el espacio del kernel, los errores y fallos en el intérprete de comandos pueden afectar el funcionamiento del kernel y todo el sistema operativo. Al mantener el intérprete de comandos fuera del kernel, se limita el impacto de los errores y fallos en el sistema operativo y se facilita la depuración de problemas.
+
 # ◦ Liste los requisitos para desarrollar un interprete de comandos.
+
+
 
 # 7. Compare las ventajas y desventajas de los modelos de intercomunicación.
 
