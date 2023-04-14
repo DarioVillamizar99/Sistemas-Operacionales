@@ -65,13 +65,67 @@ Al separar el intérprete de comandos del kernel, se permite la posibilidad de u
 
 # ◦ Liste los requisitos para desarrollar un interprete de comandos.
 
+Requisitos funcionales:
+
+* El interprete de comandos debe ser capaz de procesar o ejecutar comandos basicos
+* El interprete deber ser capaz de resntringir la entrada y salida de comandos y soportar tuberias
+* El interprede de comandos deber ser capaz de manejar variables y ejecutar scripts.
+* El interprete de comandos deber ser capas de crear alias y funciones personalizadas  para simplificarla entrada de comandos
+* El interprete debe ser capaz de proporcionar sugerencias de autocompletado para los comandos
+* El interprete dber ser capaz de mantener un historial de comandos para facilitar la recuperacion de comandos previamente utilizados.
+
+Requisitos no funcionales:
+
+* El interprete de comados deber ser facil de usar y entender para el usuario.
+* El interprete deber ser rapido y eficiente para proporcionar una respuesta rapida al usuario
+* El interprete debe ser compatible con diferentes plataformas y OS
+* El interprete debe ser seguro y evitar la ejecucion de comandos pellgrosos o maliciosos
+* El inteprete de comandos deber ser facilmente extensible para permitir adicion de nuevos comandos o funcionalidades.
 
 
 # 7. Compare las ventajas y desventajas de los modelos de intercomunicación.
 
+Modelo basado en mensajes.
+
+Ventajas:
+
+1) La comunicación es más flexible, donde los procesos pueden comunicarse entre sí de manera asíncrona y con mayor granularidad.
+2)Puede manejar mejor el procesamiento distribuido.
+3)Puede ser más fácil de depurar que otros modelos de intercomunicación.
+
+Desventajas:
+
+1) La implementación puede ser más compleja que otros modelos de intercomunicación.
+2)Puede ser menos eficiente que otros modelos en algunos casos de uso.
+
+Modelo basado en memoria compartida.
+
+Ventajas:
+
+1) La comunicación es rápida y eficiente.
+2) Puede compartir grandes cantidades de datos entre procesos.
+3) Puede ser utilizado para la sincronización de procesos y la coordinación de tareas.
+
+
+Desventajas:
+
+1) El control de acceso a la memoria compartida debe ser cuidadosamente gestionado para evitar problemas de concurrencia.
+2) Puede ser más difícil de depurar que otros modelos de intercomunicación.
+
+
 # 8. Conteste las siguientes preguntas:
 # ◦ Cual es la principal ventaja de usar microkernel en el diseño del OS?
+
+
+
 # ◦ Como interactúan los programas de usuario y los servicios del OS en una arquitectura basada en microkernel?
+
+
+
 # ◦ Cuales son las desventajas de usar la arquitectura de microkernel?
 
+
+
 # 9. Compare las ventajas y desventajas de usar VM.
+
+
