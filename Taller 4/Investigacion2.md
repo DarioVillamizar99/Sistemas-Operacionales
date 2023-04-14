@@ -116,7 +116,7 @@ Desventajas:
 # 8. Conteste las siguientes preguntas:
 # ◦ Cual es la principal ventaja de usar microkernel en el diseño del OS?
 
-
+La principal ventaja de usar un microkernel en el diseño de un sistema operativo es que permite una mayor modularidad y flexibilidad en la implementación del sistema. Un microkernel es una arquitectura de sistema operativo en la que el núcleo del sistema (kernel) solo proporciona los servicios más esenciales, como la gestión de memoria y la planificación de procesos. Todos los demás servicios, como el sistema de archivos y la red, se implementan como procesos que se ejecutan fuera del núcleo del sistema.
 
 # ◦ Como interactúan los programas de usuario y los servicios del OS en una arquitectura basada en microkernel?
 
