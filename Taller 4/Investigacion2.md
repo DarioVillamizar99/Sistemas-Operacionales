@@ -120,12 +120,44 @@ La principal ventaja de usar un microkernel en el diseño de un sistema operativ
 
 # ◦ Como interactúan los programas de usuario y los servicios del OS en una arquitectura basada en microkernel?
 
+En una arquitectura basada en microkernel, los programas de usuario y los servicios del sistema operativo interactúan a través de llamadas al sistema (system calls). Los programas de usuario no pueden acceder directamente al kernel del sistema operativo, sino que deben realizar solicitudes a través de las llamadas al sistema.
 
+Cuando un programa de usuario necesita un servicio del sistema operativo, envía una solicitud a través de una llamada al sistema al microkernel. El microkernel luego coordina la respuesta de los servicios de sistema correspondientes, que se ejecutan como procesos fuera del kernel.
 
 # ◦ Cuales son las desventajas de usar la arquitectura de microkernel?
 
+1) Mayor sobrecarga: Debido a que los servicios adicionales se ejecutan como procesos separados, se necesita una comunicación frecuente entre el kernel y los servicios, lo que puede resultar en una mayor sobrecarga.
 
+2)Rendimiento más lento: Debido a la mayor sobrecarga y a la necesidad de comunicación frecuente, la arquitectura de microkernel puede tener un rendimiento más lento que otras arquitecturas.
+
+3) Complejidad de diseño: La arquitectura de microkernel es más compleja de diseñar y desarrollar que otras arquitecturas, ya que requiere una separación clara de funciones entre el kernel y los servicios adicionales.
+
+4) Mayor costo de desarrollo: Debido a la complejidad de diseño, el desarrollo de sistemas operativos basados en la arquitectura de microkernel puede ser más costoso que el desarrollo de otros sistemas operativos.
 
 # 9. Compare las ventajas y desventajas de usar VM.
+
+Ventajas:
+
+* Aislamiento: Las VM proporcionan un alto grado de aislamiento entre el sistema operativo de la máquina virtual y el sistema operativo del host. Esto permite que diferentes sistemas operativos se ejecuten en la misma máquina física sin interferir entre sí.
+
+* Escalabilidad: Las VM son altamente escalables y se pueden agregar o eliminar fácilmente, lo que permite una mayor flexibilidad en la asignación de recursos a diferentes sistemas operativos.
+
+* Consistencia del entorno: Las VM pueden crear entornos de desarrollo y pruebas consistentes, lo que puede mejorar la calidad del software.
+
+* Seguridad: Las VM pueden proporcionar un mayor nivel de seguridad, ya que los sistemas operativos se ejecutan en un entorno virtualizado y no pueden acceder directamente a los recursos físicos.
+
+* Flexibilidad: Las VM permiten a los administradores de sistemas crear entornos virtuales específicos para las necesidades de una aplicación en particular, lo que puede mejorar la eficiencia y la escalabilidad del sistema.
+
+Desventajas:
+
+* Sobrecarga: Las VM añaden una sobrecarga adicional al sistema debido al uso de la capa de virtualización, lo que puede afectar negativamente al rendimiento.
+
+* Costo: El uso de VM puede ser costoso en términos de hardware y software, ya que se necesitan recursos adicionales para crear y mantener las máquinas virtuales.
+
+* Complejidad: Las VM añaden una capa adicional de complejidad al entorno de TI, lo que puede requerir una mayor capacitación y conocimiento para administrar y mantener el sistema.
+
+* Dependencia de hardware: Las VM dependen del hardware subyacente, lo que puede limitar la portabilidad del sistema.
+
+* Pérdida de rendimiento: Debido a la sobrecarga de virtualización, las aplicaciones que requieren un alto rendimiento pueden experimentar una pérdida de rendimiento en comparación con la ejecución en un hardware dedicado.
 
 
