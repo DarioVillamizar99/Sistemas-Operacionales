@@ -1,0 +1,8 @@
+Nombre primer archivo: Script1.txt
+nombre segundo archivo: Script4.sh
+Tipo de archivo para [Script1.txt]: cannot open `%1' (No such file or directory)
+Tipo de archivo para [Script4.sh]: cannot open `%2' (No such file or directory)
+Tamaño para [Script1.txt] es:  
+Tamaño para [Script4.sh] es:  
+La cantidad de lineas: 
+La cantidad de lineas: 6 Script4.sh

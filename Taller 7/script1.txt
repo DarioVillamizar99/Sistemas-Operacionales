@@ -1,0 +1,127 @@
+--- Total de comandos ejecutados: 126
+ls -la /
+cd/home/
+ls -la
+cd /home/
+ls -la
+pwd
+cd
+poweroff
+ip a
+pwd
+ls /
+cd /home/
+touch Pr1.txt
+ls -ls
+touch img1.img
+ls -ls
+cat Pr1.txt 
+touch doc1.docx
+cat Pr1.txt 
+cat doc1.docx 
+clear
+cat > doc1.docx 
+less doc1.docx 
+ls -ls
+mkdir paso
+ls -la
+mkdir paso/paso2
+ls -la paso
+pwd
+rmdir paso/paso2
+ls -ls paso/
+ls -la
+cp paso2
+cp paso/
+tar cvf comprimido.tar doc1.docx Pr1.txt 
+ls -la
+locate comprimido.tar 
+locate doc1.docx 
+find doc1.docx
+df -h
+du -sh
+du -sh *
+shutdown -h now 
+cat /etc/shells
+vim archivo.sh
+./archivo.sh
+bash archivo.sh
+vim archivo.sh
+bash archivo.sh
+ls -la
+pwd
+vim archivo.sh
+bash archivo.sh
+vim archivo.sh
+bash archivo.sh
+vim archivo.sh
+bash archivo.sh
+vim archivo.sh
+bash archivo.sh
+vim archivo.sh
+bash archivo.sh
+vim archivo.sh
+bash archivo.sh
+ls
+ls -la
+pwd
+cd home
+cd /home
+mkdir Taller1
+ls
+cd Taller1
+vim scrip1.sh
+bash scrip1.sh
+vim scrip1.sh
+bash scrip1.sh
+vim scrip1.sh
+bash scrip1.sh
+ls
+bash scrip1.sh
+vim scrip1.sh
+bash scrip1.sh
+vim scrip1.sh
+bash scrip1.sh
+vim scrip1.sh
+bash scrip1.sh
+vim scrip1.sh
+bash scrip1.sh
+vim scrip1.sh
+bash scrip1.sh
+vim scrip1.sh
+bash scrip1.sh
+vim scrip1.sh
+bash scrip1.sh
+vim scrip1.sh
+bash scrip1.sh
+vim scrip1.sh
+bash scrip1.sh
+vim scrip1.sh
+bash scrip1.sh
+vim scrip1.sh
+bash scrip1.sh
+pwd
+vim scrip2.sh
+pwd
+bash scrip2.sh
+vim scrip2.sh
+bash scrip2.sh
+vim scrip2.sh
+vim scrip1.sh
+bash scrip1.sh
+vim scrip1.sh
+vim scrip2.sh
+bash scrip2.sh
+vim scrip2.sh
+bash scrip2.sh
+vim scrip2.sh
+bash scrip2.sh
+vim scrip2.sh
+bash scrip2.sh
+vim scrip2.sh
+shutdown now
+-ls
+-la
+ls
+power off
+poweroff

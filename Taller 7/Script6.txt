@@ -1,0 +1,8 @@
+./script1.txt
+./Script4.txt
+./Script5.txt
+./Script6.txt
+./script1.txt
+./Script4.txt
+./Script5.txt
+./Script6.txt
