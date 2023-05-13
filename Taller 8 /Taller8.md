@@ -7,8 +7,6 @@ Un programa limitado por I/O significa que gran parte del tiempo de ejecución d
 
 Por otro lado, un programa limitado por CPU significa que el programa requiere una gran cantidad de tiempo de procesamiento de la CPU para completarse. En este caso, el planificador del sistema operativo puede priorizar los procesos que necesiten más tiempo de CPU para minimizar el tiempo de respuesta y maximizar el rendimiento general del sistema.
 
-En resumen, diferenciar entre programas limitados por I/O y por CPU es importante para que el planificador del sistema operativo pueda asignar de manera óptima los recursos del sistema para maximizar el rendimiento y la eficiencia del sistema en general.
-
 ## 2. Como entran en conflicto en determinadas configuraciones la utilización de CPU y tiempo de respuesta?
 
 En determinadas configuraciones, la utilización de CPU y el tiempo de respuesta pueden entrar en conflicto porque son dos objetivos a menudo opuestos en la planificación de tareas en un sistema operativo.
@@ -53,6 +51,7 @@ prioridad) y RR (cuanto = 1).
 ## 6. Cual es el tiempo de ejecución de cada proceso para cada algoritmo?
 
 Para el algoritmo FCFS:
+
 •	Proceso 1: 10 unidades de tiempo
 
 •	Proceso 2: 1 unidad de tiempo
@@ -64,6 +63,7 @@ Para el algoritmo FCFS:
 •	Proceso 5: 5 unidades de tiempo
 
 Para el algoritmo SJF:
+
 •	Proceso 2: 1 unidad de tiempo
 
 •	Proceso 4: 1 unidad de tiempo
@@ -75,17 +75,19 @@ Para el algoritmo SJF:
 •	Proceso 1: 10 unidades de tiempo
 
 Para el algoritmo de prioridades:
-•	Proceso 2: 1 unidad de tiempo
-
-•	Proceso 5: 5 unidades de tiempo
 
 •	Proceso 1: 10 unidades de tiempo
+
+•	Proceso 2: 1 unidad de tiempo
 
 •	Proceso 3: 2 unidades de tiempo
 
 •	Proceso 4: 1 unidad de tiempo
 
+•	Proceso 5: 5 unidades de tiempo
+
 Para el algoritmo RR (cuanto = 1):
+
 •	Proceso 1: 9 unidades de tiempo
 
 •	Proceso 2: 1 unidad de tiempo
@@ -100,6 +102,7 @@ Para el algoritmo RR (cuanto = 1):
 ## 7. Cual es el tiempo de espera de cada proceso para cada algoritmo?
 
 Para el algoritmo FCFS:
+
 •	Proceso 1: 0 unidades de tiempo
 
 •	Proceso 2: 10 unidades de tiempo
@@ -111,28 +114,32 @@ Para el algoritmo FCFS:
 •	Proceso 5: 14 unidades de tiempo
 
 Para el algoritmo SJF:
-•	Proceso 2: 0 unidades de tiempo
-
-•	Proceso 4: 2 unidades de tiempo
-
-•	Proceso 3: 3 unidades de tiempo
-
-•	Proceso 5: 5 unidades de tiempo
 
 •	Proceso 1: 8 unidades de tiempo
 
-Para el algoritmo de prioridades:
 •	Proceso 2: 0 unidades de tiempo
+
+•	Proceso 3: 3 unidades de tiempo
+
+•	Proceso 4: 2 unidades de tiempo
+
+•	Proceso 5: 5 unidades de tiempo
+
+
+Para el algoritmo de prioridades:
 
 •	Proceso 5: 1 unidad de tiempo
 
-•	Proceso 1: 12 unidades de tiempo
+•	Proceso 2: 0 unidades de tiempo
 
 •	Proceso 3: 13 unidades de tiempo
 
 •	Proceso 4: 14 unidades de tiempo
 
+•	Proceso 5: 1 unidad de tiempo
+
 Para el algoritmo RR (cuanto = 1):
+
 •	Proceso 1: 14 unidades de tiempo
 
 •	Proceso 2: 0 unidades de tiempo
